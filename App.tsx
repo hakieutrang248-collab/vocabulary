@@ -1,11 +1,11 @@
 
 import React, { useState, useEffect } from 'react';
-import { Grade, Unit, ViewMode, Exercise, HighScore } from './types.ts';
-import { INITIAL_UNITS } from './constants.tsx';
-import { WordCard } from './components/WordCard.tsx';
-import { ExerciseView } from './components/ExerciseView.tsx';
-import { AiAssistant } from './components/AiAssistant.tsx';
-import { generateUnitContent, generateExercises } from './services/geminiService.ts';
+import { Grade, Unit, ViewMode, Exercise, HighScore } from './types';
+import { INITIAL_UNITS } from './constants';
+import { WordCard } from './components/WordCard';
+import { ExerciseView } from './components/ExerciseView';
+import { AiAssistant } from './components/AiAssistant';
+import { generateUnitContent, generateExercises } from './services/geminiService';
 
 const App: React.FC = () => {
   const [selectedGrade, setSelectedGrade] = useState<Grade>(Grade.G6);
