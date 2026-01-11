@@ -1,0 +1,7 @@
+{
+  "name": "English Master: Vocabulary for Junior High",
+  "description": "An interactive English vocabulary learning platform for Vietnamese students (Grades 6-9), aligned with the GDPT 2018 curriculum. Features AI-powered exercise generation, native-like TTS, and diverse practice modes.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
